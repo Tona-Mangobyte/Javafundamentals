@@ -3,7 +3,7 @@ package org.example.oop;
 import java.time.LocalDate;
 
 public abstract class Employee {
-    private static final String DEFAULT_NAME = "UNKNOWN";
+    public static final String DEFAULT_NAME = "UNKNOWN";
     private static int nextId;
 
     private Integer id;
